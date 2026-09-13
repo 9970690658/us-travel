@@ -67,7 +67,9 @@ const allowedOrigins = [
 
     "https://us-travel-tours.netlify.app",
 
+    "http://localhost:3000",
 
+    "http://127.0.0.1:3000"
 
 ];
 
@@ -482,7 +484,7 @@ app.listen(
         );
 
         console.log(
-            "Backend: https://us-travel-tours.onrender.com"
+            "Backend: https://us-travel.onrender.com"
         );
 
         console.log(
