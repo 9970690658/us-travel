@@ -1,5 +1,5 @@
 const PAYMENT_ENDPOINT =
-    "https://us-travel-tours.onrender.com/api/application-payment";
+    "https://us-travel.onrender.com/api/application-payment";
 const express = require("express");
 const router = express.Router();
 const multer = require("multer");
