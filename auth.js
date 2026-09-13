@@ -145,7 +145,7 @@ console.log("SMTP connection verified successfully.");
     const baseUrl =
         String(
             process.env.APP_BASE_URL ||
-            "http://localhost:3000"
+            "https://us-travel-tours.netlify.app"
         ).replace(/\/+$/, "");
 
     const resetUrl =
